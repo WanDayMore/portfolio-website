@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Parchment';
+  src: url('./assets/fonts/PARCHM.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Ensures text is visible while loading */
+}
+
+/* Helper class */
+.font-parchment {
+  font-family: 'Parchment', fantasy, cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+@keyframes scrollBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    /* ⚠️ Make sure this value matches a full loop width of your image */
+    background-position: -1000px 0; 
+  }
+}
+
+.animate-infinite-scroll {
+  animation: scrollBackground 20s linear infinite !important;
+  background-repeat: repeat-x !important;
+  background-size: auto 100% !important;
+}
