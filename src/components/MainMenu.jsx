@@ -95,7 +95,7 @@ function MainMenu() {
               <span className="text-[10px] text-slate-500 block uppercase tracking-wider font-bold">// QUICK_LINKS:</span>
               <div className="grid grid-cols-3 gap-2 text-center text-xs">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/WanDayMore/" 
                   target="_blank" 
                   rel="noreferrer"
                   className="p-2 border-2 border-slate-300 bg-slate-50 text-slate-800 hover:border-[#004b8d] hover:bg-[#004b8d] hover:text-white transition-all font-bold shadow-[2px_2px_0px_0px_#004b8d]"

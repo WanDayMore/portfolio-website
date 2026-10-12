@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T01:52:00.000Z",
+  "title": "Design System: Isaiah Quejadas Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Craftsman Indigo",
+        "canonical": "#4f46e5",
+        "tonalRamp": [
+          "#eef2ff",
+          "#e0e7ff",
+          "#c7d2fe",
+          "#a5b4fc",
+          "#818cf8",
+          "#6366f1",
+          "#4f46e5",
+          "#4338ca"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Craftsman Indigo Hover",
+        "canonical": "#4338ca",
+        "tonalRamp": [
+          "#eef2ff",
+          "#e0e7ff",
+          "#c7d2fe",
+          "#a5b4fc",
+          "#818cf8",
+          "#6366f1",
+          "#4f46e5",
+          "#4338ca"
+        ]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Stone Canvas",
+        "canonical": "#fafaf9",
+        "tonalRamp": [
+          "#ffffff",
+          "#fafaf9",
+          "#f5f5f4",
+          "#e7e5e4",
+          "#d6d3d1",
+          "#a8a29e",
+          "#78716c",
+          "#1c1917"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Solid White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#ffffff",
+          "#fafaf9",
+          "#f5f5f4",
+          "#e7e5e4",
+          "#d6d3d1",
+          "#a8a29e",
+          "#78716c",
+          "#1c1917"
+        ]
+      },
+      "surface-card": {
+        "role": "neutral",
+        "displayName": "Solid White Card",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#ffffff",
+          "#fafaf9",
+          "#f5f5f4",
+          "#e7e5e4",
+          "#d6d3d1",
+          "#a8a29e",
+          "#78716c",
+          "#1c1917"
+        ]
+      },
+      "border-structural": {
+        "role": "neutral",
+        "displayName": "Structural Stone Border",
+        "canonical": "#e7e5e4",
+        "tonalRamp": [
+          "#fafaf9",
+          "#f5f5f4",
+          "#e7e5e4",
+          "#d6d3d1",
+          "#a8a29e",
+          "#78716c",
+          "#57534e",
+          "#292524"
+        ]
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Deep Ink Primary",
+        "canonical": "#1c1917",
+        "tonalRamp": [
+          "#78716c",
+          "#57534e",
+          "#44403c",
+          "#292524",
+          "#1c1917",
+          "#0c0a09"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Stone Muted",
+        "canonical": "#57534e",
+        "tonalRamp": [
+          "#a8a29e",
+          "#78716c",
+          "#57534e",
+          "#44403c",
+          "#292524",
+          "#1c1917"
+        ]
+      },
+      "accent-emerald": {
+        "role": "secondary",
+        "displayName": "Signal Emerald",
+        "canonical": "#059669",
+        "tonalRamp": [
+          "#ecfdf5",
+          "#d1fae5",
+          "#a7f3d0",
+          "#6ee7b7",
+          "#34d399",
+          "#10b981",
+          "#059669",
+          "#047857"
+        ]
+      },
+      "accent-amber": {
+        "role": "secondary",
+        "displayName": "Signal Amber",
+        "canonical": "#d97706",
+        "tonalRamp": [
+          "#fffbeb",
+          "#fef3c7",
+          "#fde68a",
+          "#fcd34d",
+          "#fbbf24",
+          "#f59e0b",
+          "#d97706",
+          "#b45309"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline introduction with sharp human geometry."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section milestones and career titles in solid ink."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project and bento card group headers."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable case study narratives and engineering breakdowns."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Grounded inline tech tags, timestamps, and commit telemetry."
+      }
+    },
+    "shadows": [
+      {
+        "name": "flat-rest",
+        "value": "none",
+        "purpose": "Default planar state on solid white cards with 1px border."
+      },
+      {
+        "name": "micro-hover",
+        "value": "0 2px 8px -2px rgba(0, 0, 0, 0.05)",
+        "purpose": "Minimal tactile card lift on hover."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default snappy easing for clean state transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "High-priority interactive trigger with solid craftsman indigo tone.",
+      "html": "<button class=\"ds-btn-primary\">Explore Projects</button>",
+      "css": ".ds-btn-primary { background: #4f46e5; color: #ffffff; padding: 10px 20px; border-radius: 8px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; border: none; cursor: pointer; transition: background 0.15s cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-primary:hover { background: #4338ca; } .ds-btn-primary:focus-visible { outline: 2px solid #6366f1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Tactile white-surface secondary button with crisp border.",
+      "html": "<button class=\"ds-btn-secondary\">Curriculum Vitae</button>",
+      "css": ".ds-btn-secondary { background: #ffffff; color: #1c1917; padding: 10px 20px; border-radius: 8px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 14px; font-weight: 500; border: 1px solid #e7e5e4; cursor: pointer; transition: background 0.15s, border-color 0.15s; } .ds-btn-secondary:hover { background: #f5f5f4; border-color: #d6d3d1; } .ds-btn-secondary:focus-visible { outline: 2px solid #6366f1; outline-offset: 2px; }"
+    },
+    {
+      "name": "Category Filter Tab",
+      "kind": "chip",
+      "refersTo": "chip-category",
+      "description": "Clean grounded filter tab without floating chip appearance.",
+      "html": "<button class=\"ds-tab-active\">Full-Stack</button><button class=\"ds-tab-inactive\">Mobile & AI</button>",
+      "css": ".ds-tab-active { background: #4f46e5; color: #ffffff; padding: 6px 14px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; border: none; cursor: pointer; } .ds-tab-inactive { background: #f5f5f4; color: #57534e; padding: 6px 14px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; border: 1px solid #e7e5e4; cursor: pointer; transition: color 0.15s, background 0.15s; } .ds-tab-inactive:hover { color: #1c1917; background: #e7e5e4; }"
+    },
+    {
+      "name": "Solid Workshop Card",
+      "kind": "card",
+      "refersTo": "card-bento",
+      "description": "Solid white card with tactile 1px border and zero frosted blur.",
+      "html": "<div class=\"ds-card-workshop\"><h3 class=\"ds-card-title\">WizPool Express</h3><p class=\"ds-card-body\">Campus carpooling system built with React, .NET Core, and WebSockets.</p></div>",
+      "css": ".ds-card-workshop { background: #ffffff; border: 1px solid #e7e5e4; border-radius: 12px; padding: 24px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; transition: border-color 0.15s; } .ds-card-workshop:hover { border-color: #a8a29e; } .ds-card-title { color: #1c1917; font-size: 18px; font-weight: 700; margin: 0 0 6px 0; } .ds-card-body { color: #57534e; font-size: 14px; line-height: 1.6; margin: 0; }"
+    },
+    {
+      "name": "Input Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Crisp paper-white form field with stone border and indigo focus ring.",
+      "html": "<input type=\"text\" class=\"ds-input-field\" placeholder=\"your.email@example.com\" />",
+      "css": ".ds-input-field { background: #ffffff; color: #1c1917; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px 14px; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 14px; width: 100%; box-sizing: border-box; transition: border-color 0.15s, box-shadow 0.15s; } .ds-input-field::placeholder { color: #a8a29e; } .ds-input-field:focus { outline: none; border-color: #4f46e5; box-shadow: 0 0 0 1px #4f46e5; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Indie Craftsman's Workshop",
+    "overview": "The visual design system embodies honest, clean, and unpretentious indie-developer craftsmanship. Purpose-built for engineering hiring managers, technical founders, and collaborators, the interface rejects corporate theater, faux frosted-glass gloss, and floating gadgetry in favor of razor-sharp readability, solid paper surfaces, and straightforward technical proof.\n\nSurfaces are anchored by warm stone paper (#fafaf9), solid crisp white cards (#ffffff), tactile 1px warm-stone borders (#e7e5e4), and high-contrast deep ink typography (#1c1917).",
+    "keyCharacteristics": [
+      "Solid, opaque, paper-white cards on warm stone ground (#fafaf9)",
+      "Pure solid typography in deep ink (#1c1917) with balanced contrast (#57534e)",
+      "Grounded, inline metadata instead of floating status chips or corner tags",
+      "Tactile 1px structural borders without ambient frosted blur",
+      "Monospaced technical indicators (JetBrains Mono) paired with human geometric body copy (Plus Jakarta Sans)",
+      "Snappy, unbloated, fast-loading visual footprint"
+    ],
+    "rules": [
+      {
+        "name": "The Solid Ground Rule",
+        "body": "All cards, containers, and bars are 100% opaque solid surfaces (#ffffff). Frosted glassmorphism, background blurs, and translucent rgba washes are strictly forbidden.",
+        "section": "colors"
+      },
+      {
+        "name": "The Inline Metadata Rule",
+        "body": "Metadata (dates, categories, status, architecture) must flow naturally as inline text within the layout structure. Floating badge overlays and corner status chips pinned across thumbnails are barred.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Accent Economy",
+        "body": "Craftsman Indigo is strictly restricted to interactive affordances (≤8% of any viewport).",
+        "section": "colors"
+      },
+      {
+        "name": "The Pure Ink Type Rule",
+        "body": "All headings and display titles render exclusively in solid Deep Ink (#1c1917). Gradient text fills or clipping masks are strictly prohibited.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use solid, 100% opaque #ffffff cards on the #fafaf9 stone canvas.",
+      "Do keep typography in crisp, solid Deep Ink (#1c1917) and Stone Muted (#57534e).",
+      "Do flow metadata inline as clean text and structured lists.",
+      "Do use JetBrains Mono for tech stacks, code tags, and metrics.",
+      "Do maintain a simple, unpretentious, fast indie-developer aesthetic."
+    ],
+    "donts": [
+      "Don't use frosted glassmorphism, translucent overlays, or backdrop-blur.",
+      "Don't overlay floating status chips, pills, or badge counters on top of image thumbnails.",
+      "Don't use dark-mode obsidian planes with neon glow halos.",
+      "Don't add arbitrary proficiency ratings, percentage bars, or skill levels.",
+      "Don't use gradient text fills on headings."
+    ]
+  }
+}

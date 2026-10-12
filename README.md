@@ -1,16 +1,35 @@
-# React + Vite
+# Isaiah Quejadas — Engineering Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, high-performance developer portfolio website engineered with React 19, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Engineer:** Isaiah Quejadas
+- **Role:** Full-Stack Software Engineer & Systems Architect
+- **Education:** B.S. in Computer Science — Mapúa Malayan Colleges Laguna
+- **Tech Stack:** React 19, Tailwind CSS, Vite, Lucide Icons, React Router v7
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Professional Visual Identity:** Sleek obsidian dark theme with subtle ambient glowing gradients, glassmorphism, and responsive typography (Plus Jakarta Sans).
+- **Featured Projects Showcase:** Categorized works (Full-Stack & Web, Mobile & IoT, Game & Interactive) with high-res screenshot lightbox galleries and architectural breakdowns.
+- **Enterprise Experience Timeline:** Detailed case studies for **Globe Telecom** (QA & Data Pipelines) and **MMCL Student Affairs Office** (Scholarship Workflow Digitization).
+- **Technical Skills Matrix:** Bento-style classification of Frontend, Backend & Systems, Data & Cloud, and AI / Machine Learning.
+- **Interactive Modals:** Project deep-dive lightbox and print-ready structured Resume / Curriculum Vitae viewer.
+- **Direct Contact:** Quick one-click copy email, social channels (GitHub, LinkedIn), and integrated inquiry form.
 
-## Expanding the Oxlint configuration
+## 🛠️ Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```

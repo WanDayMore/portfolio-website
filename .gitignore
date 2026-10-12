@@ -22,3 +22,43 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# AI tool folders (skills, hooks, local settings)
+.claude/
+.agent/
+.agents/
+.cursor/
+.codex/
+.gemini/
+.github/skills/
+.github/hooks/
+
+# Impeccable ephemeral output (from the README)
+**/.impeccable/config.local.json
+**/.impeccable/hook.cache.json
+**/.impeccable/hook.pending.json
+**/.impeccable/*.png
+**/.impeccable/review/
+**/.impeccable/questions/
+**/.impeccable/live/server.json
+**/.impeccable/live/sessions/
+**/.impeccable/live/previews/
+**/.impeccable/live/annotations/
+**/.impeccable/live/cache/
+**/.impeccable/live/*.png
+
+# Secrets and normal junk
+.env
+.env.*
+!.env.example
+
+# Deployment tool folders
+.vercel
+.netlify
+
+# Test/build output
+coverage
+
+# Keys and certificates
+*.pem
+*.key
